@@ -4,15 +4,19 @@
 
 body {
     display: flex;
-    margin: 0;
+    background-color: forestgreen;
+    color: white;
     font-family: sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-header {
-    width: 100%;
+header,
+footer {
+    text-align: center;
     padding: 1rem;
-    font-size: 2rem;
-    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 1.5rem;
 }
 
 .content {
@@ -22,10 +26,10 @@ header {
 }
 
 .section-box {
-    background-color: #f8f8f8;
-    border-radius: 12px;
+    background-color: rgba(0, 0, 0, 0.3);
     padding: 1rem;
-    margin-bottom: 2rem;
+    margin: 1rem;
+    border-radius: 8px;
 }
 
 .article-title {
@@ -40,13 +44,25 @@ header {
     margin-top: 0.5rem;
 }
 
-.table-container {
-    display: flex;
-    font-weight: bold;
+
+/* Table styles */
+table {
+    width: 100%;
+    background-color: white;
+    color: black;
+    border-collapse: collapse;
 }
 
-.table-container>div {
-    flex: 1;
+table,
+th,
+td {
+    border: 1px solid #ccc;
+}
+
+th,
+td {
+    padding: 0.5rem;
+    text-align: left;
 }
 
 .sidebar {
@@ -55,8 +71,17 @@ header {
     position: sticky;
     top: 0;
     height: fit-content;
-    background-color: #fafafa;
+    background-color: rgba(0, 0, 0, 0.4);
     border-left: 1px solid #ddd;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    margin: 0.5rem 0;
 }
 
 footer {
@@ -74,4 +99,8 @@ img {
 
 ul {
     padding-left: 1.25rem;
+}
+
+a {
+    color: lightyellow;
 }
