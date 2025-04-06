@@ -4,11 +4,13 @@
 
 body {
     display: flex;
-    background-color: forestgreen;
+    background-color: #003525;
     color: white;
     font-family: sans-serif;
     margin: 0;
     padding: 0;
+    background-image: url('background.jpg');
+    background-repeat: repeat;
 }
 
 header,
