@@ -1,8 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
 * {
     box-sizing: border-box;
 }
 
 body {
+    font-family: 'Crimson Text', serif;
+    font-size: 1.6rem;
+    line-height: 1.25;
+    letter-spacing: 0.02rem;
+    word-spacing: .05rem;
     display: flex;
     justify-content: center;
     background-color: #003525;
@@ -17,6 +24,8 @@ body {
 }
 
 header {
+    font-family: 'Aleo', serif;
+    letter-spacing: 0.05rem;
     text-align: center;
     padding: 1rem;
     font-size: 1.5rem;
@@ -34,6 +43,8 @@ footer {
 
 h2,
 h3 {
+    font-family: 'Aleo', serif;
+    letter-spacing: 0.05rem;
     margin-top: -2px;
     color: lemonchiffon;
 }
@@ -64,6 +75,8 @@ h3 {
 }
 
 .sidebar {
+    font-family: 'Aleo', serif;
+    letter-spacing: 0.05rem;
     width: 25%;
     padding: 1rem;
     position: sticky;
