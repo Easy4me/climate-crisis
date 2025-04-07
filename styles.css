@@ -168,7 +168,7 @@ p::first-line {
 
 @media (max-width: 600px) {
     body {
-        padding-top: 160px;
+        padding-top: 140px;
     }
 
     .sidebar {
