@@ -5,32 +5,43 @@
 body {
     display: flex;
     background-color: #003525;
-    color: white;
+    color: #ccc;
     font-family: sans-serif;
     margin: 0;
     padding: 0;
     background-image: url('background.jpg');
     background-repeat: repeat;
+    background-position: top left;
+    background-attachment: fixed;
 }
 
-header,
+header {
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.5rem;
+    color: lemonchiffon;
+}
+
 footer {
     text-align: center;
     padding: 1rem;
-    background-color: rgba(0, 0, 0, 0.5);
-    font-size: 1.5rem;
+    font-size: 0.9rem;
+    color: #aaa;
+    border-top: 1px solid #ccc;
+    background-color: rgba(0, 20, 10, 0.8);
 }
 
-footer {
-    font-size: 0.9rem;
-    color: #888;
+h2,
+h3 {
+    margin-top: -2px;
+    color: lemonchiffon;
 }
 
 .section-box {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 20, 10, 0.8);
     padding: 1rem;
     margin: 1rem;
-    border-radius: 8px;
+    border-radius: 16px;
 }
 
 .content {
@@ -47,7 +58,7 @@ footer {
     display: flex;
     justify-content: space-between;
     font-size: 0.9rem;
-    color: #666;
+    color: #aaa;
     margin-top: 0.5rem;
 }
 
@@ -57,8 +68,8 @@ footer {
     position: sticky;
     top: 0;
     height: fit-content;
-    background-color: rgba(0, 0, 0, 0.4);
-    border-left: 1px solid #ddd;
+    background-color: rgba(0, 20, 10, 0.8);
+    border-left: 1px solid #ccc;
 }
 
 nav ul {
@@ -76,15 +87,11 @@ nav li:hover {
 
 table {
     width: 100%;
-    background-color: white;
-    color: black;
+    background-color: lightyellow;
+    color: #003525;
     border-collapse: collapse;
-}
-
-table,
-th,
-td {
-    border: 1px solid #ccc;
+    border: none;
+    border-radius: 8px;
 }
 
 th,
@@ -138,7 +145,7 @@ h2::after {
 
 p::first-line {
     font-weight: bold;
-    color: yellow;
+    color: lemonchiffon;
 }
 
 .indented {
