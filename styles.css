@@ -154,15 +154,17 @@ p::first-line {
 }
 
 @media (max-width: 600px) {
-    .sidebar {
-        width: 40px;
-        padding: 0;
+    body {
+        padding-top: 120px;
     }
 
-    .sidebar nav {
-        position: fixed;
+    .sidebar {
         width: 100%;
+        position: fixed;
+        padding: 12;
+        border: none;
     }
+
 
     .sidebar nav ul {
         display: flex;
@@ -171,17 +173,7 @@ p::first-line {
         justify-content: space-around;
     }
 
-    /* Show full nav on hover */
-    .sidebar:hover {
-        width: 60%;
-        /* Expand to full width */
-        padding: 1rem;
-    }
 
-    .sidebar:hover nav,
-    .sidebar:hover nav ul,
-    .sidebar:hover nav li {
-        opacity: 1;
-        pointer-events: auto;
-    }
+
+
 }
