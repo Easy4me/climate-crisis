@@ -151,3 +151,32 @@ p::first-line {
 .indented {
     text-indent: 2em;
 }
+
+@media (max-width: 600px) {
+    .sidebar {
+        width: 40px;
+        padding: 0;
+    }
+
+    .sidebar nav,
+    .sidebar nav ul,
+    .sidebar nav li {
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 0.3s ease;
+    }
+
+    /* Show full nav on hover */
+    .sidebar:hover {
+        width: 60%;
+        /* Expand to full width */
+        padding: 1rem;
+    }
+
+    .sidebar:hover nav,
+    .sidebar:hover nav ul,
+    .sidebar:hover nav li {
+        opacity: 1;
+        pointer-events: auto;
+    }
+}
