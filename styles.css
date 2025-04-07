@@ -13,6 +13,10 @@ body {
     background-repeat: repeat;
 }
 
+.indented {
+    text-indent: 2em;  
+}
+
 header,
 footer {
     text-align: center;
