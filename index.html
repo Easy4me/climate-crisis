@@ -4,28 +4,113 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>wildfires 🔥 CA: The Palisades Fire</title>
+    <title>Wildfires 🔥 CA: The Palisades Fire</title>
     <link rel="stylesheet" href="styles.css">
+    
 </head>
+<style> .section-box {
+    background-color: rgba(0, 0, 0, 0.3); 
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 8px;
+}
 
+header, footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 1.5rem;
+}
+
+table {
+    width: 100%;
+    background-color: white;
+    color: black;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 0.5rem;
+    text-align: left;
+}
+
+a {
+    color: lightyellow;
+}
+
+a:visited {
+    color: orange;
+}
+
+a:hover {
+    color: cyan;
+    text-decoration: underline;
+}
+
+a:focus {
+    outline: 2px dashed yellow;
+}
+
+a:active {
+    color: red;
+}
+
+.sidebar {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 1rem;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    margin: 0.5rem 0;
+}
+
+nav li:hover {
+    background-color: darkred;
+}
+
+h2::before {
+    content: "🔥 ";
+}
+
+h2::after {
+    content: " 🔥";
+}
+
+p::first-line {
+    font-weight: bold;
+    color: yellow;
+}
+
+ul li::marker {
+    color: red;
+}</style>
 
 <body>
 
     <main class="content">
 
         <header>
-            wildfires 🔥 CA
+            Wildfires 🔥 CA
         </header>
 
         <section class="section-box">
             <h2 class="article-title">The Palisades Fire</h2>
             <img src="https://i0.wp.com/calmatters.org/wp-content/uploads/2025/02/011825_-Pacific-Palisades-Bowl_REUTERS_CM_01.jpg?w=2000&ssl=1"
-                alt="The Palisades Fire" width="300" height="200">
+                alt="The Palisades Fire" width="300" height="200" style="display: block; margin: 0 auto;" alt="centered image">
             <div class="article-meta">
                 <div>Los Angeles, CA</div>
                 <div>Feb 2, 2025</div>
             </div>
-            <p>
+            <p class="indented">
                 Finally, after 24 of days of burning, the Palisades Fire is 100% contained as of January 31.
                 The burn area ends at 23,707 acres (about 37 square miles)&mdash;one of our smaller wildfires,
                 but 6,837 buildings were destroyed or damaged&mdash;making this fire the 3rd most damaging in CA
@@ -142,7 +227,7 @@
         <section class="section-box">
             <h3>What can civilians do?</h3>
             <img src="https://www.filson.eu/cdn/shop/collections/BANNER_HP_DESK_smokey3.jpg?v=1663339496"
-                alt="Civilians helping prevent wildfires" width="600" height="200">
+                alt="Civilians helping prevent wildfires" width="600" height="200" style="display: block; margin: 0 auto;" alt="centered image">
             <p>
                 Individuals can take action to prevent fires and stay safe during fire season:
             </p>
